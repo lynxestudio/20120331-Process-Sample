@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListProcesses/MainWindow.cs">
+    <Files>
+      <File FileName="ListProcesses/Main.cs" Line="1" Column="1" />
+      <File FileName="ListProcesses/MainWindow.cs" Line="79" Column="3" />
+      <File FileName="../../Samples/ProcessExample/ProcessSample.cs" Line="9" Column="4" />
+      <File FileName="../Mis_Publicaciones/Listados/ReadXmlGtk.cs" Line="28" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="ListProcesses" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
