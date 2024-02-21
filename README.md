@@ -11,12 +11,8 @@ La definición clásica de proceso <i><tt>[1]</tt></i> nos dice que un proceso <
 </ol>
 </p>
 <p align="justify">
-.NET proporciona la clase <a href=”http://msdn.microsoft.com/en-us/library/system.diagnostics.process.aspx”>Process</a> que representa un proceso del sistema operativo con todas sus propiedades y operaciones, esta clase se encuentra dentro del ensamblado <i>System.Diagnostics</i>.<br />A continuación mostramos el listado correspondiente a un proyecto GTK# de <a href="http://www.monodevelop.com">MonoDevelop</a>, este programa sencillo muestra el uso de esta clase.</p>
-<pre>
-<div>
-<img src="picture_library/processList/MainProcess.png"/>
-</div>
-</pre>
+.NET proporciona la clase <a href=”http://msdn.microsoft.com/en-us/library/system.diagnostics.process.aspx”>Process</a> que representa un proceso del sistema operativo con todas sus propiedades y operaciones, esta clase se encuentra dentro del ensamblado <i>System.Diagnostics</i>.<br />A continuación mostramos el listado correspondiente a un proyecto GTK# de <a href="http://www.monodevelop.com">MonoDevelop</a>, este programa sencillo muestra el uso de esta clase.
+</p>
 <p align="justify">
 Primeramente obtenemos el nombre del host del cuál obtendremos sus procesos en ejecucción, este nombre lo asignamos a una variable de tipo <i>string</i> para después mostrarlo en una etiqueta de la interfaz gráfica <br />
 <pre>
