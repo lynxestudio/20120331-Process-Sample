@@ -1,4 +1,4 @@
-# Entendiendo la clase Process de .NET
+# Usando la clase Process de .NET
 
 <p align="justify">
 La definición clásica de proceso <i><tt>[1]</tt></i> nos dice que un proceso <i>"es un programa en ejecución"</i>  también nos señala que un proceso es más que un programa, ya que por programa se refiere únicamente al conjunto de instrucciones que se van ejecutando dentro del proceso, por lo que subraya que un proceso es una entidad activa que tiene un contador de programa (program counter), un conjunto de recursos asociados  y ese conjunto de instrucciones que están representadas por el programa.<br />Un proceso tiene los siguientes estados durante su ejecución:
@@ -33,26 +33,27 @@ TreeIter iter;
 int pid;
 foreach (TreePath p in selected_paths)
 {
-if (store.GetIter (out iter, p)) {
-pid = Convert.ToInt32(store.GetValue(iter,1));
-Process process = Process.GetProcessById(pid);
-lbVirtualMemory.Text = Convert.ToString(process.WorkingSet64 / 1024) + " Kb";
-lbPriority.Text = process.PriorityClass.ToString();
-lbStartProcessorTime.Text = process.StartTime.ToString("HH:mm:ss.ffff");
- }
+	if (store.GetIter (out iter, p)) 
+	{
+	pid = Convert.ToInt32(store.GetValue(iter,1));
+	Process process = Process.GetProcessById(pid);
+	lbVirtualMemory.Text = Convert.ToString(process.WorkingSet64 / 1024) + " Kb";
+	lbPriority.Text = process.PriorityClass.ToString();
+	lbStartProcessorTime.Text = process.StartTime.ToString("HH:mm:ss.ffff");
+ 	}
  }
  </pre>
 <div>Las siguientes imagenes muestran el programa en ejecucción</div><br />
 <div>
-<img src="picture_library/processList/fg1.png"/>
+<img src="images/fg1.png"/>
 </div><br>
 <br />
 <div>
-<img src="picture_library/processList/fg2.png"/>
+<img src="images/fg2.png"/>
 </div><br>
 <p>
 <i>[1]Basado en el libro “Operating System Concepts”, Silberschatz Abraham, Baer Galvin Peter, Greg Gagne; John Wiley & Sons inc, 7 edición, 2005, Chapter 3</i><br />
 <div>
-<img src="picture_library/processList/silberschatz.jpg"/>
+<img src="images/silberschatz.jpg"/>
 </div>
 </p>
